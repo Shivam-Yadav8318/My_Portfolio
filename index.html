@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shivam Yadav — Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="port2.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class="bx bx-menu" id="menu-toggle" aria-label="Toggle navigation" role="button" tabindex="0"></i>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="home" id="home" aria-label="Hero">
+    <div class="gradient-orb"></div>
+    <div class="home-content">
+      <h3>Hello, it's me</h3>
+      <h1>Mr. Shivam Yadav</h1>
+      <h3>And I'm a <span>Web Developer</span></h3>
+      <p>
+        I build responsive, secure, and scalable web applications. From clean frontends with robust validation
+        to solid backend APIs, I enjoy turning ideas into useful software.
+      </p>
+
+      <div class="socialMedia">
+        <a href="https://www.instagram.com/s_h_i_v_a_m__87?igsh=MXg2Zndvam9ocGYyeQ==" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://in.linkedin.com/in/shivam-kumar-yadav-21b63433b" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="UCvVOWI3wZHdsnLzgSM2eHOw" aria-label="YouTube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        <a href="https://github.com/Shivam-Yadav8318" aria-label="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+      </div>
+
+      <a href="resumee.pdf" class="btn" target="_blank">View Resume</a>
+    </div>
+
+    <div class="home-img tilt" data-tilt>
+      <img src="sk.png" alt="Shivam Yadav portrait"/>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about" aria-label="About">
+    <div class="about-img tilt" data-tilt>
+      <img src="sk.png" alt="Shivam working on code"/>
+    </div>
+
+    <div class="about-content glass">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Problem Solver</h3>
+      <p>
+        I love debugging, optimizing logic, and designing reliable systems. My toolkit includes Java, Python, SQL,
+        Spring Boot, and modern HTML/CSS/JS—plus attention to accessibility and input security.
+      </p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services" aria-label="Services">
+    <h2 class="heading">My <span>Services</span></h2>
+
+    <div class="services-container">
+      <div class="services-box tilt glass" data-tilt>
+        <div class="icon"><i class="bx bx-code-alt"></i></div>
+        <h3 class="serv">Web Development</h3>
+        <p>
+          Full-stack web apps with clean architecture, secure forms, and responsive UIs. Performance-first builds that scale.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box tilt glass" data-tilt>
+        <div class="icon"><i class="bx bx-layout"></i></div>
+        <h3 class="serv">Frontend</h3>
+        <p>
+          Modern interfaces using semantic HTML, CSS animations, accessibility, and robust JS validation.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box tilt glass" data-tilt>
+        <div class="icon"><i class="bx bx-server"></i></div>
+        <h3 class="serv">Backend</h3>
+        <p>
+          REST APIs with Spring Boot and Python, secure auth, SQL schema design, and clean deployment practices.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio" aria-label="Portfolio">
+    <h2 class="heading">Featured <span>Work</span></h2>
+
+    <div class="grid">
+      <article class="card tilt" data-tilt>
+        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&auto=format&fit=crop&q=60" alt="Code editor" />
+        <div class="card-content">
+          <h4>Secure Forms</h4>
+          <p>Regex-driven validation, accessibility, and password rules for production-ready forms.</p>
+          <a href="#" class="btn small">View</a>
+        </div>
+      </article>
+
+      <article class="card tilt" data-tilt>
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&auto=format&fit=crop&q=60" alt="API architecture" />
+        <div class="card-content">
+          <h4>Spring Boot API</h4>
+          <p>Clean REST endpoints, auth middleware, and SQL migrations with performance tuning.</p>
+          <a href="#" class="btn small">View</a>
+        </div>
+      </article>
+
+      <article class="card tilt" data-tilt>
+        <img src="https://images.unsplash.com/photo-1531498860502-7e021e92d02b?w=1200&auto=format&fit=crop&q=60" alt="Dashboard UI" />
+        <div class="card-content">
+          <h4>Admin Dashboard</h4>
+          <p>Responsive UI with charts, routing, and data tables for analytics workflows.</p>
+          <a href="#" class="btn small">View</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact" aria-label="Contact">
+    <h2 class="heading">Get In <span>Touch</span></h2>
+    <form class="contact-form glass" id="contactForm" novalidate>
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required/>
+        <small class="error"></small>
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required/>
+        <small class="error"></small>
+      </div>
+
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        <small class="error"></small>
+      </div>
+
+      <a href="mailto:yadav927791@gmail.com" class="btn">Message Me</a>
+    </form>
+  </section>
+
+  <footer class="footer" aria-label="Footer">
+    <p>© <span id="year"></span> Shivam Yadav. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="port2.js"></script>
+</body>
+</html>
